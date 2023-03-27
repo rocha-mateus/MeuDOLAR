@@ -11,7 +11,6 @@ import { View, Text, Pressable, TouchableOpacity } from "react-native";
 const App = () => {
   const [hideSplashScreen, setHideSplashScreen] = React.useState(true);
   const [fontsLoaded, error] = useFonts({
-    Poppins: require("./assets/fonts/Poppins.ttf"),
     Poppins_regular: require("./assets/fonts/Poppins_regular.ttf"),
     Poppins_medium: require("./assets/fonts/Poppins_medium.ttf"),
     Poppins_semibold: require("./assets/fonts/Poppins_semibold.ttf"),
